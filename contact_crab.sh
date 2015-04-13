@@ -14,7 +14,7 @@ if [ "$DoesWGETExist" != false ]; then
   echo "========================================="
   echo " Collecting information from given url..."
   echo "========================================="
-  cd ~/crab_contacts
+  cd ~/Desktop
   html="contact.html"
   txt="contact.txt"
 
