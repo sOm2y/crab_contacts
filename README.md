@@ -4,7 +4,7 @@ THIS IS A PLUGIN FOR PEOPLE WHO WANTS EXTRACT CONTENT FROM WEBPAGE
 ## HOW TO USE PYTHON VERSION OF CRAB CONTACTS
 Download file and unzip
 
-Open you browser and go to the page (http://www.collegecoachesonline.com/member_home.php )you want to crab, 
+Open you browser and go to the page (http://www.collegecoachesonline.com/member_home.php )you want to GRAB AND CRACK, 
 
 right click and select View Page Source
 
