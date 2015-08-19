@@ -12,7 +12,12 @@ soup = BeautifulSoup(open("contact.html"))
 table = soup.find('table')
 csv_header = ['email','college name','coaches name','coaches phone','city','state','school type','academic rating']
 rows = table.find_all('tr', attrs={'class':'listing'})
+#get current time
+now = datetime.datetime.now()
+now_str=now.strftime("%H:%M:%S-%d-%m-%Y")
 
+# Write out to a file for today
+outfilename = 'data-{}.csv'.format(now_str)
 
 
 #get a tag link's email
@@ -28,11 +33,6 @@ def mailto_link(e):
                 return m.group(1)
     return None
 
-now = datetime.datetime.now()
-now_str=now.strftime("%H:%M:%S-%d-%m-%Y")
-
-# Write out to a file for today
-outfilename = 'data-{}.csv'.format(now_str)
 
 #wgenerate out.csv and write data into it
 with open(outfilename, 'wb') as outcsv:
