@@ -39,5 +39,4 @@ with open('out.csv', 'wb') as outcsv:
 	    cols = [ele.text.encode('utf-8').strip() for ele in cols]
 	    wr.writerow(mailtos+cols)
 	   
-
-
+print('out.csv has been made and updated!')
