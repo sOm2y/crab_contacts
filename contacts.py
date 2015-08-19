@@ -45,4 +45,4 @@ with open(outfilename, 'wb') as outcsv:
 	    cols = [ele.text.encode('utf-8').strip() for ele in cols]
 	    wr.writerow(mailtos+cols)
 	   
-print('out.csv has been made and updated!')
+print('csv file has been made and updated! file name is: '+outfilename)

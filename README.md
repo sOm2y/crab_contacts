@@ -37,7 +37,7 @@ Open a command line terminal, type
 
 if everything goes right, 
 
-after you run the command you will see ```out.csv has been made and updated! ``` in you console
+after you run the command you will see ```csv file has been made and updated! file name is: data-20:29:11-19-08-2015.csv``` in you console
 
 now you can find ```data-20:22:18-13-08-2015.csv``` (something like this) in crab_contacts folder
 
