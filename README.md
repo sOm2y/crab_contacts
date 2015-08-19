@@ -26,7 +26,8 @@ press enter
 
 Open a command line terminal, type
 
-```cd c:\Path\To\crab_contacts
+```cd c:\Path\To\crab_contacts```
+
 ```c:\Path\To\crab_contacts\python contacts.py```
 
 ###if you haven't installed python on your computer
