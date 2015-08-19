@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import os, json, re, csv, sys
+import os, json, re, csv, sys, datetime
 
 
 #import beautifulsoup 
@@ -28,8 +28,14 @@ def mailto_link(e):
                 return m.group(1)
     return None
 
+now = datetime.datetime.now()
+now_str=now.strftime("%H:%M:%S-%d-%m-%Y")
+
+# Write out to a file for today
+outfilename = 'data-{}.csv'.format(now_str)
+
 #wgenerate out.csv and write data into it
-with open('out.csv', 'wb') as outcsv:
+with open(outfilename, 'wb') as outcsv:
 	wr = csv.writer(outcsv,dialect='excel')
 	wr.writerow(csv_header)
 	for row in rows:
