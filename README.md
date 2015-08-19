@@ -11,7 +11,8 @@ right click and select View Page Source
 You will see all source code of this page, copy all of it and paste it to contact.html which is
 in crab_contacts folder. Make sure you've saved it!
 
-then open you terminal
+###for mac user
+open you terminal
 
 and type ```python ```
 
@@ -20,6 +21,13 @@ and drag contacts.py to terminal
 and you should see ```python /YourComputerPath/crab_contacts/contacts.py``` something like this
 
 press enter
+
+###for windows user
+
+Open a command line terminal, type
+
+```cd c:\Path\To\crab_contacts
+```c:\Path\To\crab_contacts\python contacts.py```
 
 ###if you haven't installed python on your computer
 ###please go to https://www.python.org/downloads/
